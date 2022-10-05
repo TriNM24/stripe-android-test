@@ -56,10 +56,13 @@ afterEvaluate { project ->
                     name = project.artifactName
                     packaging = "aar"
                     description = project.artifactDescrption
-                    url = "https://github.com/stripe/stripe-android"
+                    //url = "https://github.com/stripe/stripe-android"
+                    url = "https://github.com/TriNM24/stripe-android-test"
+                    //com.github.stripe.stripe-android:stripe-core:t1.0.1.
+                    //com.github.TriNM24.stripe-android-test:financial-connections:t1.0.1
 
                     scm {
-                        url = "https://github.com/stripe/stripe-android"
+                        url = "https://github.com/TriNM24/stripe-android-test"
                         connection = "scm:org-856813@github.com:stripe/stripe-android.git"
                         developerConnection = "scm:org-856813@github.com:stripe/stripe-android.git"
                     }
