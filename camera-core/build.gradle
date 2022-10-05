@@ -12,7 +12,7 @@ configurations {
 }
 
 if (System.getenv("JITPACK")) {
-    group='com.github.stripe.stripe-android'
+    group='com.github.TriNM24.stripe-android-test'
 }
 
 dependencies {
